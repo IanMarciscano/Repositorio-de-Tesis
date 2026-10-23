@@ -1,0 +1,191 @@
+{
+ "validacion_ok": true,
+ "barrido": [
+  {
+   "ancho_ms": 250,
+   "n_episodios": 0,
+   "n_ventanas": 0,
+   "motivo": "ancho_pre menor que la ventana de 300 ms; la clase de reposo no cabe"
+  },
+  {
+   "ancho_ms": 300,
+   "n_episodios": 61,
+   "n_ventanas": 3660,
+   "auc_media": 0.6323,
+   "auc_desv": 0.0513,
+   "auc_agregada": 0.6344,
+   "por_sesion": [
+    {
+     "archivo": "emg_20260806_182858.csv",
+     "episodios": 8
+    },
+    {
+     "archivo": "emg_20260806_193017.csv",
+     "episodios": 9
+    },
+    {
+     "archivo": "emg_20260807_150646.csv",
+     "episodios": 15
+    },
+    {
+     "archivo": "emg_20260807_170550.csv",
+     "episodios": 15
+    },
+    {
+     "archivo": "emg_20260811_122212.csv",
+     "episodios": 14
+    }
+   ]
+  },
+  {
+   "ancho_ms": 350,
+   "n_episodios": 58,
+   "n_ventanas": 4060,
+   "auc_media": 0.622,
+   "auc_desv": 0.0473,
+   "auc_agregada": 0.6241,
+   "por_sesion": [
+    {
+     "archivo": "emg_20260806_182858.csv",
+     "episodios": 8
+    },
+    {
+     "archivo": "emg_20260806_193017.csv",
+     "episodios": 9
+    },
+    {
+     "archivo": "emg_20260807_150646.csv",
+     "episodios": 15
+    },
+    {
+     "archivo": "emg_20260807_170550.csv",
+     "episodios": 13
+    },
+    {
+     "archivo": "emg_20260811_122212.csv",
+     "episodios": 13
+    }
+   ]
+  },
+  {
+   "ancho_ms": 400,
+   "n_episodios": 58,
+   "n_ventanas": 4640,
+   "auc_media": 0.5897,
+   "auc_desv": 0.0554,
+   "auc_agregada": 0.5909,
+   "por_sesion": [
+    {
+     "archivo": "emg_20260806_182858.csv",
+     "episodios": 8
+    },
+    {
+     "archivo": "emg_20260806_193017.csv",
+     "episodios": 9
+    },
+    {
+     "archivo": "emg_20260807_150646.csv",
+     "episodios": 15
+    },
+    {
+     "archivo": "emg_20260807_170550.csv",
+     "episodios": 13
+    },
+    {
+     "archivo": "emg_20260811_122212.csv",
+     "episodios": 13
+    }
+   ]
+  },
+  {
+   "ancho_ms": 500,
+   "n_episodios": 53,
+   "n_ventanas": 5300,
+   "auc_media": 0.5522,
+   "auc_desv": 0.0411,
+   "auc_agregada": 0.551,
+   "por_sesion": [
+    {
+     "archivo": "emg_20260806_182858.csv",
+     "episodios": 7
+    },
+    {
+     "archivo": "emg_20260806_193017.csv",
+     "episodios": 8
+    },
+    {
+     "archivo": "emg_20260807_150646.csv",
+     "episodios": 13
+    },
+    {
+     "archivo": "emg_20260807_170550.csv",
+     "episodios": 13
+    },
+    {
+     "archivo": "emg_20260811_122212.csv",
+     "episodios": 12
+    }
+   ]
+  },
+  {
+   "ancho_ms": 750,
+   "n_episodios": 43,
+   "n_ventanas": 6450,
+   "auc_media": 0.5061,
+   "auc_desv": 0.0293,
+   "auc_agregada": 0.5066,
+   "por_sesion": [
+    {
+     "archivo": "emg_20260806_182858.csv",
+     "episodios": 4
+    },
+    {
+     "archivo": "emg_20260806_193017.csv",
+     "episodios": 6
+    },
+    {
+     "archivo": "emg_20260807_150646.csv",
+     "episodios": 12
+    },
+    {
+     "archivo": "emg_20260807_170550.csv",
+     "episodios": 11
+    },
+    {
+     "archivo": "emg_20260811_122212.csv",
+     "episodios": 10
+    }
+   ]
+  },
+  {
+   "ancho_ms": 1000,
+   "n_episodios": 33,
+   "n_ventanas": 6600,
+   "auc_media": 0.4997,
+   "auc_desv": 0.0479,
+   "auc_agregada": 0.4932,
+   "por_sesion": [
+    {
+     "archivo": "emg_20260806_182858.csv",
+     "episodios": 4
+    },
+    {
+     "archivo": "emg_20260806_193017.csv",
+     "episodios": 3
+    },
+    {
+     "archivo": "emg_20260807_150646.csv",
+     "episodios": 11
+    },
+    {
+     "archivo": "emg_20260807_170550.csv",
+     "episodios": 10
+    },
+    {
+     "archivo": "emg_20260811_122212.csv",
+     "episodios": 5
+    }
+   ]
+  }
+ ]
+}

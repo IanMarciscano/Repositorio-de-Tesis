@@ -1,0 +1,19 @@
+{
+ "linea_base": "B [-1000,-500] ms",
+ "episodios": 61,
+ "divergencia_ms": -120,
+ "masa": 259.8,
+ "perm_p95": 54.2,
+ "perm_max": 192.0,
+ "perm_p": 0.0005,
+ "sus_mediana": 9.1,
+ "sus_p95": 53.6,
+ "sus_max": 177.8,
+ "sus_p": 0.001,
+ "ic": [
+  -440,
+  240
+ ],
+ "fraccion_anticipa": 0.8,
+ "replicas_sus": 1000
+}

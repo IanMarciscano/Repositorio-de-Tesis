@@ -1,0 +1,206 @@
+{
+ "parametros": {
+  "T_H": 0.025,
+  "theta_on": 0.6,
+  "theta_off": 0.42,
+  "N_on": 4,
+  "N_off": 12,
+  "T_mov": 4.6,
+  "tau": 2.0,
+  "eps_q": {
+   "sh": 1.9,
+   "el": 4.1
+  },
+  "eps_v": {
+   "sh": 3.1,
+   "el": 7.8
+  },
+  "eps_F": 427.0,
+  "Dq_f": {
+   "flex_codo": {
+    "sh": 0.0,
+    "el": -37.2
+   },
+   "ext_codo": {
+    "sh": 0.0,
+    "el": 49.1
+   },
+   "flex_hombro": {
+    "sh": -33.5,
+    "el": 0.0
+   },
+   "ext_hombro": {
+    "sh": 33.0,
+    "el": 0.0
+   },
+   "levantamiento": {
+    "sh": -11.2,
+    "el": -58.2
+   }
+  },
+  "escalado_alcance": true,
+  "w_e": 0.2,
+  "w_F": 0.8,
+  "eta_0": 0.1,
+  "eta_1": 0.6
+ },
+ "calidad": {
+  "20260806_182858": {
+   "plano_max_s": 56.255,
+   "r_servo_imu": 0.28170337645287286,
+   "offset": 0.0,
+   "sigma": 0.0,
+   "imu_sana": false,
+   "fuente_q_el": "angulo del servo (IMU degradada)",
+   "rango_el": [
+    -30.0,
+    50.0
+   ]
+  },
+  "20260806_193017": {
+   "plano_max_s": 0.163,
+   "r_servo_imu": 0.945388900440025,
+   "offset": -109.21630885180343,
+   "sigma": 2.2746926565472254,
+   "imu_sana": true,
+   "fuente_q_el": "fusion servo-IMU",
+   "rango_el": [
+    -139.21630885180343,
+    -59.21630885180343
+   ]
+  },
+  "20260807_150646": {
+   "plano_max_s": 0.165,
+   "r_servo_imu": 0.9881467484835645,
+   "offset": -111.08443098953897,
+   "sigma": 1.7622932267920572,
+   "imu_sana": true,
+   "fuente_q_el": "fusion servo-IMU",
+   "rango_el": [
+    -141.084430989539,
+    -61.08443098953897
+   ]
+  },
+  "20260807_170550": {
+   "plano_max_s": 0.166,
+   "r_servo_imu": 0.9872062121933813,
+   "offset": -105.70041199543962,
+   "sigma": 1.6799306461521635,
+   "imu_sana": true,
+   "fuente_q_el": "fusion servo-IMU",
+   "rango_el": [
+    -135.70041199543962,
+    -55.70041199543962
+   ]
+  },
+  "20260811_122212": {
+   "plano_max_s": 0.151,
+   "r_servo_imu": 0.9755778033268622,
+   "offset": -101.45090040179164,
+   "sigma": 2.5581844579924247,
+   "imu_sana": true,
+   "fuente_q_el": "fusion servo-IMU",
+   "rango_el": [
+    -131.45090040179164,
+    -51.45090040179164
+   ]
+  }
+ },
+ "por_sesion": {
+  "20260806_182858": {
+   "imu_sana": false,
+   "carga": "0.00kg",
+   "activaciones": 34,
+   "en_gesto": 14,
+   "episodios": 20,
+   "cubiertos": 14,
+   "recortes": 0,
+   "exc_velocidad": 0,
+   "seg_dir": 21,
+   "seg_opuestos": 12,
+   "duracion_mediana": 9.224999999999454,
+   "escala_media": 0.5515002597997786,
+   "frac_asistiendo": 0.8761896046852123,
+   "alpha_medio": 0.12949930282878272,
+   "motivos": {
+    "perdida": 9,
+    "llegada": 2,
+    "fin de sesion": 1,
+    "tiempo maximo": 22
+   }
+  },
+  "20260807_150646": {
+   "imu_sana": true,
+   "carga": "0.00kg",
+   "activaciones": 89,
+   "en_gesto": 36,
+   "episodios": 20,
+   "cubiertos": 19,
+   "recortes": 4,
+   "exc_velocidad": 0,
+   "seg_dir": 36,
+   "seg_opuestos": 12,
+   "duracion_mediana": 1.4749999999999233,
+   "escala_media": 0.6214369652307432,
+   "frac_asistiendo": 0.7277502901472115,
+   "alpha_medio": 0.06615119926347648,
+   "motivos": {
+    "perdida": 69,
+    "llegada": 4,
+    "tiempo maximo": 16
+   }
+  },
+  "20260807_170550": {
+   "imu_sana": true,
+   "carga": "0.85kg",
+   "activaciones": 73,
+   "en_gesto": 31,
+   "episodios": 20,
+   "cubiertos": 18,
+   "recortes": 12,
+   "exc_velocidad": 0,
+   "seg_dir": 23,
+   "seg_opuestos": 6,
+   "duracion_mediana": 1.2499999999998863,
+   "escala_media": 0.5837591702173187,
+   "frac_asistiendo": 0.46143268727082243,
+   "alpha_medio": 0.1537908384315069,
+   "motivos": {
+    "perdida": 67,
+    "llegada": 1,
+    "fin de sesion": 1,
+    "tiempo maximo": 4
+   }
+  },
+  "20260811_122212": {
+   "imu_sana": true,
+   "carga": "0.50kg",
+   "activaciones": 81,
+   "en_gesto": 30,
+   "episodios": 20,
+   "cubiertos": 16,
+   "recortes": 12,
+   "exc_velocidad": 0,
+   "seg_dir": 30,
+   "seg_opuestos": 14,
+   "duracion_mediana": 1.500000000000341,
+   "escala_media": 0.628904665263692,
+   "frac_asistiendo": 0.5523052464228935,
+   "alpha_medio": 0.12747724906835273,
+   "motivos": {
+    "perdida": 75,
+    "tiempo maximo": 6
+   }
+  }
+ },
+ "global": {
+  "act": 277,
+  "gesto": 111,
+  "eps": 80,
+  "cub": 67,
+  "rec": 28,
+  "vel": 0,
+  "dir": 110,
+  "opo": 44
+ }
+}

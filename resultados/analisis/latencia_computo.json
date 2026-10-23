@@ -1,0 +1,55 @@
+{
+  "descripcion": "Tercer termino del presupuesto de latencia, seccion 3.8.2. Coste de computo por ciclo del supervisor en esta computadora.",
+  "no_incluye": [
+    "retardo de adquisicion",
+    "acumulacion de la ventana",
+    "retardo de comunicacion con el sistema embebido",
+    "periodo de actualizacion del supervisor"
+  ],
+  "parametros": {
+    "fs_emg_hz": 1000.0,
+    "ventana_muestras": 300,
+    "salto_muestras": 10,
+    "longitud_secuencia": 20,
+    "canales_emg": 2,
+    "componentes_psi": 15,
+    "ciclos_medidos": 2000,
+    "origen_secuencia": "pliegue_0.85kg.npz",
+    "modelo": "modelo_0.85kg_auxint.keras"
+  },
+  "filtrado_causal": {
+    "mediana_ms": 0.1061,
+    "p95_ms": 0.1603,
+    "p99_ms": 0.1909,
+    "maximo_ms": 1.2195,
+    "n": 2000
+  },
+  "extraccion_caracteristicas": {
+    "mediana_ms": 0.1756,
+    "p95_ms": 0.2443,
+    "p99_ms": 0.2957,
+    "maximo_ms": 0.7337,
+    "n": 2000
+  },
+  "inferencia_compilada": {
+    "mediana_ms": 1.4133,
+    "p95_ms": 1.8691,
+    "p99_ms": 2.0791,
+    "maximo_ms": 4.9688,
+    "n": 2000
+  },
+  "inferencia_invocacion_directa": {
+    "mediana_ms": 38.2374,
+    "p95_ms": 43.1095,
+    "p99_ms": 44.5952,
+    "maximo_ms": 84.248,
+    "n": 200
+  },
+  "ciclo_completo": {
+    "mediana_ms": 1.7064,
+    "p95_ms": 2.1743,
+    "p99_ms": 2.4106,
+    "maximo_ms": 5.3252,
+    "n": 2000
+  }
+}

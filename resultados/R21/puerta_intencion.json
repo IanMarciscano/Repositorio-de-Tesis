@@ -1,0 +1,86 @@
+{
+  "ancho_pre_ms": 300,
+  "sep_reposo_ms": 1000,
+  "umbral_velocidad_dps": 5.0,
+  "n_ventanas": 3660,
+  "n_episodios": 61,
+  "sesiones": [
+    {
+      "archivo": "emg_20260806_182858.csv",
+      "episodios": 8
+    },
+    {
+      "archivo": "emg_20260806_193017.csv",
+      "episodios": 9
+    },
+    {
+      "archivo": "emg_20260807_150646.csv",
+      "episodios": 15
+    },
+    {
+      "archivo": "emg_20260807_170550.csv",
+      "episodios": 15
+    },
+    {
+      "archivo": "emg_20260811_122212.csv",
+      "episodios": 14
+    }
+  ],
+  "resultados": {
+    "bosque_aleatorio": {
+      "auc_media": 0.6323,
+      "auc_desv": 0.0513,
+      "auc_agregada": 0.6344
+    },
+    "red_neuronal": {
+      "auc_media": 0.5927,
+      "auc_desv": 0.0309,
+      "auc_agregada": 0.582
+    }
+  },
+  "mejor": "bosque_aleatorio",
+  "barrido": [
+    {
+      "theta_on": 0.3,
+      "sensibilidad": 0.8377,
+      "especificidad": 0.2989,
+      "falsos_positivos": 1283
+    },
+    {
+      "theta_on": 0.4,
+      "sensibilidad": 0.7175,
+      "especificidad": 0.423,
+      "falsos_positivos": 1056
+    },
+    {
+      "theta_on": 0.5,
+      "sensibilidad": 0.6038,
+      "especificidad": 0.5716,
+      "falsos_positivos": 784
+    },
+    {
+      "theta_on": 0.6,
+      "sensibilidad": 0.4448,
+      "especificidad": 0.735,
+      "falsos_positivos": 485
+    },
+    {
+      "theta_on": 0.7,
+      "sensibilidad": 0.2754,
+      "especificidad": 0.8814,
+      "falsos_positivos": 217
+    },
+    {
+      "theta_on": 0.8,
+      "sensibilidad": 0.1514,
+      "especificidad": 0.9683,
+      "falsos_positivos": 58
+    },
+    {
+      "theta_on": 0.9,
+      "sensibilidad": 0.0612,
+      "especificidad": 0.9984,
+      "falsos_positivos": 3
+    }
+  ]
+}

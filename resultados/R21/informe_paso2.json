@@ -1,0 +1,48 @@
+{
+  "20260806_182858": {
+    "carga_kg": 0.0,
+    "calibracion": "completa",
+    "dur_calibracion_s": 58.8,
+    "secuencias": 24179,
+    "parcial": false,
+    "mu_IAV_bic": 1091.4,
+    "sd_IAV_bic": 569.4
+  },
+  "20260806_193017": {
+    "carga_kg": 0.0,
+    "calibracion": "completa",
+    "dur_calibracion_s": 58.8,
+    "secuencias": 19410,
+    "parcial": true,
+    "mu_IAV_bic": 13451.9,
+    "sd_IAV_bic": 17948.7
+  },
+  "20260807_150646": {
+    "carga_kg": 0.0,
+    "calibracion": "completa",
+    "dur_calibracion_s": 58.8,
+    "secuencias": 36866,
+    "parcial": false,
+    "mu_IAV_bic": 1883.7,
+    "sd_IAV_bic": 465.9
+  },
+  "20260807_170550": {
+    "carga_kg": 0.85,
+    "calibracion": "CONTAMINADA: bloque ejecutado con carga (D2)",
+    "dur_calibracion_s": 58.8,
+    "secuencias": 34964,
+    "parcial": false,
+    "mu_IAV_bic": 20150.4,
+    "sd_IAV_bic": 14731.1,
+    "sesgo_mu_vs_sanas": 3.25
+  },
+  "20260811_122212": {
+    "carga_kg": 0.5,
+    "calibracion": "PARCIAL: 13.0 s validos de 58.8 s (D3)",
+    "dur_calibracion_s": 13.0,
+    "secuencias": 36742,
+    "parcial": false,
+    "mu_IAV_bic": 8344.3,
+    "sd_IAV_bic": 34194.3
+  }
+}

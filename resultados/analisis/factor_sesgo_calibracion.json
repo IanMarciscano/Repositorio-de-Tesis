@@ -1,0 +1,31 @@
+{
+ "caracteristica": "IAV_bic",
+ "referencia_sin_carga": {
+  "n": 18935,
+  "q1": 1201.2,
+  "mediana": 1680.0,
+  "q3": 1975.4
+ },
+ "entre_sesiones": {
+  "sesion": "20260807_170550",
+  "n": 5879,
+  "mediana": 16650.2,
+  "factor": 9.9,
+  "ic95": [
+   9.8,
+   10.1
+  ]
+ },
+ "intra_sesion": {
+  "sesion": "20260811_122212",
+  "n_valido": 1300,
+  "mediana_valido": 909.2,
+  "n_con_carga": 4582,
+  "mediana_con_carga": 29952.4,
+  "factor": 32.9,
+  "ic95": [
+   32.3,
+   33.4
+  ]
+ }
+}

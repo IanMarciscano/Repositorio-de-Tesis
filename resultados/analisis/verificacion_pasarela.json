@@ -1,0 +1,229 @@
+{
+ "pesos": {
+  "comm": 1.0,
+  "fault": 1.0,
+  "dir": 1.0,
+  "trk": 0.5,
+  "cur": 0.4,
+  "temp": 0.3
+ },
+ "umbrales": {
+  "rho_menor": 0.3,
+  "rho_mayor": 0.8
+ },
+ "origen_de_los_parametros": "elección del diseñador; ninguno se deriva de medición ni de restricción del firmware",
+ "del_firmware": {
+  "can_timeout_ms": 200.0,
+  "cur_limit_a": 10.0
+ },
+ "por_sesion": [
+  {
+   "sesion": "20260806_182858",
+   "muestras": 10928,
+   "segundos": 273.2,
+   "crudos": {
+    "corriente_max_a": 7.86,
+    "temperatura_min_c": 33.0,
+    "temperatura_max_c": 39.0,
+    "err_no_nulos": 0,
+    "hueco_telemetria_max_ms": 100.0
+   },
+   "I_comm": {
+    "maximo": 0.27,
+    "medio": 0.0043,
+    "fraccion_no_nulo": 0.0172
+   },
+   "I_fault": {
+    "maximo": 0.0,
+    "medio": 0.0,
+    "fraccion_no_nulo": 0.0
+   },
+   "I_cur": {
+    "maximo": 0.0,
+    "medio": 0.0,
+    "fraccion_no_nulo": 0.0
+   },
+   "I_temp": {
+    "maximo": 0.0,
+    "medio": 0.0,
+    "fraccion_no_nulo": 0.0
+   },
+   "I_trk": {
+    "maximo": 1.0,
+    "medio": 0.8327,
+    "fraccion_no_nulo": 0.866
+   },
+   "I_dir": {
+    "maximo": 1.0,
+    "medio": 0.0059,
+    "fraccion_no_nulo": 0.0059
+   },
+   "rho": {
+    "maximo": 1.75,
+    "mediana": 0.5
+   },
+   "modos": {
+    "0": 0.1765,
+    "1": 0.8176,
+    "2": 0.0059
+   },
+   "transiciones": 81
+  },
+  {
+   "sesion": "20260807_150646",
+   "muestras": 16371,
+   "segundos": 409.3,
+   "crudos": {
+    "corriente_max_a": 5.1,
+    "temperatura_min_c": 34.0,
+    "temperatura_max_c": 40.0,
+    "err_no_nulos": 0,
+    "hueco_telemetria_max_ms": 100.0
+   },
+   "I_comm": {
+    "maximo": 0.5,
+    "medio": 0.0059,
+    "fraccion_no_nulo": 0.0235
+   },
+   "I_fault": {
+    "maximo": 0.0,
+    "medio": 0.0,
+    "fraccion_no_nulo": 0.0
+   },
+   "I_cur": {
+    "maximo": 0.0,
+    "medio": 0.0,
+    "fraccion_no_nulo": 0.0
+   },
+   "I_temp": {
+    "maximo": 0.0,
+    "medio": 0.0,
+    "fraccion_no_nulo": 0.0
+   },
+   "I_trk": {
+    "maximo": 1.0,
+    "medio": 0.5438,
+    "fraccion_no_nulo": 0.6121
+   },
+   "I_dir": {
+    "maximo": 1.0,
+    "medio": 0.0128,
+    "fraccion_no_nulo": 0.0128
+   },
+   "rho": {
+    "maximo": 1.75,
+    "mediana": 0.423
+   },
+   "modos": {
+    "0": 0.468,
+    "1": 0.519,
+    "2": 0.013
+   },
+   "transiciones": 225
+  },
+  {
+   "sesion": "20260807_170550",
+   "muestras": 15272,
+   "segundos": 381.8,
+   "crudos": {
+    "corriente_max_a": 6.48,
+    "temperatura_min_c": 0.0,
+    "temperatura_max_c": 39.0,
+    "err_no_nulos": 0,
+    "hueco_telemetria_max_ms": 100.0
+   },
+   "I_comm": {
+    "maximo": 0.25,
+    "medio": 0.0055,
+    "fraccion_no_nulo": 0.0218
+   },
+   "I_fault": {
+    "maximo": 0.0,
+    "medio": 0.0,
+    "fraccion_no_nulo": 0.0
+   },
+   "I_cur": {
+    "maximo": 0.0,
+    "medio": 0.0,
+    "fraccion_no_nulo": 0.0
+   },
+   "I_temp": {
+    "maximo": 0.0,
+    "medio": 0.0,
+    "fraccion_no_nulo": 0.0
+   },
+   "I_trk": {
+    "maximo": 1.0,
+    "medio": 0.2859,
+    "fraccion_no_nulo": 0.3641
+   },
+   "I_dir": {
+    "maximo": 1.0,
+    "medio": 0.005,
+    "fraccion_no_nulo": 0.005
+   },
+   "rho": {
+    "maximo": 1.75,
+    "mediana": 0.0
+   },
+   "modos": {
+    "0": 0.7302,
+    "1": 0.2649,
+    "2": 0.005
+   },
+   "transiciones": 130
+  },
+  {
+   "sesion": "20260811_122212",
+   "muestras": 15725,
+   "segundos": 393.1,
+   "crudos": {
+    "corriente_max_a": 6.55,
+    "temperatura_min_c": 31.0,
+    "temperatura_max_c": 39.0,
+    "err_no_nulos": 0,
+    "hueco_telemetria_max_ms": 50.0
+   },
+   "I_comm": {
+    "maximo": 0.25,
+    "medio": 0.0085,
+    "fraccion_no_nulo": 0.0341
+   },
+   "I_fault": {
+    "maximo": 0.0,
+    "medio": 0.0,
+    "fraccion_no_nulo": 0.0
+   },
+   "I_cur": {
+    "maximo": 0.0,
+    "medio": 0.0,
+    "fraccion_no_nulo": 0.0
+   },
+   "I_temp": {
+    "maximo": 0.0,
+    "medio": 0.0,
+    "fraccion_no_nulo": 0.0
+   },
+   "I_trk": {
+    "maximo": 1.0,
+    "medio": 0.4265,
+    "fraccion_no_nulo": 0.5099
+   },
+   "I_dir": {
+    "maximo": 1.0,
+    "medio": 0.0149,
+    "fraccion_no_nulo": 0.0149
+   },
+   "rho": {
+    "maximo": 1.75,
+    "mediana": 0.087
+   },
+   "modos": {
+    "0": 0.5881,
+    "1": 0.397,
+    "2": 0.0149
+   },
+   "transiciones": 280
+  }
+ ]
+}

@@ -1,0 +1,139 @@
+{
+  "tensorflow": "2.21.0",
+  "semilla": 42,
+  "detalle": [
+    {
+      "experimento": "focal",
+      "carga_kg": 0.0,
+      "canales": 15,
+      "parametros": 33126,
+      "epocas": 16,
+      "exactitud": 0.2955,
+      "f1_macro": 0.2771,
+      "auc_intencion": 0.5521
+    },
+    {
+      "experimento": "focal",
+      "carga_kg": 0.5,
+      "canales": 15,
+      "parametros": 33126,
+      "epocas": 16,
+      "exactitud": 0.4097,
+      "f1_macro": 0.2331,
+      "auc_intencion": 0.5775
+    },
+    {
+      "experimento": "focal",
+      "carga_kg": 0.85,
+      "canales": 15,
+      "parametros": 33126,
+      "epocas": 19,
+      "exactitud": 0.5204,
+      "f1_macro": 0.4491,
+      "auc_intencion": 0.6002
+    },
+    {
+      "experimento": "jitter",
+      "carga_kg": 0.0,
+      "canales": 15,
+      "parametros": 33126,
+      "epocas": 16,
+      "exactitud": 0.3883,
+      "f1_macro": 0.334,
+      "auc_intencion": 0.5685
+    },
+    {
+      "experimento": "jitter",
+      "carga_kg": 0.5,
+      "canales": 15,
+      "parametros": 33126,
+      "epocas": 16,
+      "exactitud": 0.3032,
+      "f1_macro": 0.2496,
+      "auc_intencion": 0.5732
+    },
+    {
+      "experimento": "jitter",
+      "carga_kg": 0.85,
+      "canales": 15,
+      "parametros": 33126,
+      "epocas": 16,
+      "exactitud": 0.4727,
+      "f1_macro": 0.4083,
+      "auc_intencion": 0.6139
+    },
+    {
+      "experimento": "coral",
+      "carga_kg": 0.0,
+      "canales": 15,
+      "parametros": 33126,
+      "epocas": 17,
+      "exactitud": 0.2625,
+      "f1_macro": 0.27,
+      "auc_intencion": 0.5807,
+      "exactitud_coral": 0.3333,
+      "f1_macro_coral": 0.2963,
+      "auc_intencion_coral": 0.5582,
+      "pasos_coral": 200
+    },
+    {
+      "experimento": "coral",
+      "carga_kg": 0.5,
+      "canales": 15,
+      "parametros": 33126,
+      "epocas": 16,
+      "exactitud": 0.2617,
+      "f1_macro": 0.2288,
+      "auc_intencion": 0.6068,
+      "exactitud_coral": 0.3792,
+      "f1_macro_coral": 0.2792,
+      "auc_intencion_coral": 0.5876,
+      "pasos_coral": 200
+    },
+    {
+      "experimento": "coral",
+      "carga_kg": 0.85,
+      "canales": 15,
+      "parametros": 33126,
+      "epocas": 16,
+      "exactitud": 0.4314,
+      "f1_macro": 0.3696,
+      "auc_intencion": 0.561,
+      "exactitud_coral": 0.4495,
+      "f1_macro_coral": 0.3799,
+      "auc_intencion_coral": 0.5661,
+      "pasos_coral": 200
+    },
+    {
+      "experimento": "auxint",
+      "carga_kg": 0.0,
+      "canales": 15,
+      "parametros": 33159,
+      "epocas": 16,
+      "exactitud": 0.4045,
+      "f1_macro": 0.3563,
+      "auc_intencion": 0.5936
+    },
+    {
+      "experimento": "auxint",
+      "carga_kg": 0.5,
+      "canales": 15,
+      "parametros": 33159,
+      "epocas": 16,
+      "exactitud": 0.3211,
+      "f1_macro": 0.225,
+      "auc_intencion": 0.5483
+    },
+    {
+      "experimento": "auxint",
+      "carga_kg": 0.85,
+      "canales": 15,
+      "parametros": 33159,
+      "epocas": 16,
+      "exactitud": 0.5025,
+      "f1_macro": 0.414,
+      "auc_intencion": 0.5888
+    }
+  ],
+  "nota": "auxint se reintento por separado tras corregir un bug de class_weight/metrics en modelos multi-salida (Keras 3.x)"
+}

@@ -1,0 +1,74 @@
+[
+ {
+  "umbral": 5.0,
+  "persistencia": 50,
+  "episodios": 61,
+  "ventanas": 3660,
+  "auc": 0.6344,
+  "divergencia_ms": -120,
+  "p": 0.001
+ },
+ {
+  "umbral": 7.0,
+  "persistencia": 50,
+  "episodios": 68,
+  "ventanas": 4080,
+  "auc": 0.6402,
+  "divergencia_ms": -420,
+  "p": 0.001
+ },
+ {
+  "umbral": 10.0,
+  "persistencia": 50,
+  "episodios": 72,
+  "ventanas": 4320,
+  "auc": 0.6038,
+  "divergencia_ms": 10,
+  "p": 0.003
+ },
+ {
+  "umbral": 15.0,
+  "persistencia": 50,
+  "episodios": 56,
+  "ventanas": 3360,
+  "auc": 0.7368,
+  "divergencia_ms": -220,
+  "p": 0.007
+ },
+ {
+  "umbral": 5.0,
+  "persistencia": 100,
+  "episodios": 71,
+  "ventanas": 4260,
+  "auc": 0.638,
+  "divergencia_ms": -440,
+  "p": 0.001
+ },
+ {
+  "umbral": 7.0,
+  "persistencia": 100,
+  "episodios": 72,
+  "ventanas": 4320,
+  "auc": 0.6921,
+  "divergencia_ms": -190,
+  "p": 0.002
+ },
+ {
+  "umbral": 10.0,
+  "persistencia": 100,
+  "episodios": 60,
+  "ventanas": 3600,
+  "auc": 0.6934,
+  "divergencia_ms": 10,
+  "p": 0.001
+ },
+ {
+  "umbral": 15.0,
+  "persistencia": 100,
+  "episodios": 41,
+  "ventanas": 2460,
+  "auc": 0.6846,
+  "divergencia_ms": -30,
+  "p": 0.031
+ }
+]

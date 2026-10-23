@@ -1,0 +1,96 @@
+{
+ "bíceps": [
+  {
+   "sesion": "20260806_182858",
+   "mediana_calibracion": 3.1,
+   "mediana_reposo": 33.4,
+   "mediana_gesto": 36.7,
+   "razon_reposo_calibracion": 10.67,
+   "razon_gesto_reposo": 1.1,
+   "fraccion_reposo_sobre_umbral": 0.521
+  },
+  {
+   "sesion": "20260806_193017",
+   "mediana_calibracion": 6.8,
+   "mediana_reposo": 94.5,
+   "mediana_gesto": 119.6,
+   "razon_reposo_calibracion": 13.91,
+   "razon_gesto_reposo": 1.27,
+   "fraccion_reposo_sobre_umbral": 0.123
+  },
+  {
+   "sesion": "20260807_150646",
+   "mediana_calibracion": 6.0,
+   "mediana_reposo": 19.6,
+   "mediana_gesto": 24.5,
+   "razon_reposo_calibracion": 3.25,
+   "razon_gesto_reposo": 1.25,
+   "fraccion_reposo_sobre_umbral": 0.438
+  },
+  {
+   "sesion": "20260807_170550",
+   "mediana_calibracion": 34.7,
+   "mediana_reposo": 32.0,
+   "mediana_gesto": 38.6,
+   "razon_reposo_calibracion": 0.92,
+   "razon_gesto_reposo": 1.21,
+   "fraccion_reposo_sobre_umbral": 0.016
+  },
+  {
+   "sesion": "20260811_122212",
+   "mediana_calibracion": 42.5,
+   "mediana_reposo": 57.6,
+   "mediana_gesto": 89.1,
+   "razon_reposo_calibracion": 1.36,
+   "razon_gesto_reposo": 1.55,
+   "fraccion_reposo_sobre_umbral": 0.004
+  }
+ ],
+ "tríceps": [
+  {
+   "sesion": "20260806_182858",
+   "mediana_calibracion": 2.1,
+   "mediana_reposo": 16.1,
+   "mediana_gesto": 20.0,
+   "razon_reposo_calibracion": 7.6,
+   "razon_gesto_reposo": 1.24,
+   "fraccion_reposo_sobre_umbral": 0.4
+  },
+  {
+   "sesion": "20260806_193017",
+   "mediana_calibracion": 4.6,
+   "mediana_reposo": 74.9,
+   "mediana_gesto": 101.0,
+   "razon_reposo_calibracion": 16.35,
+   "razon_gesto_reposo": 1.35,
+   "fraccion_reposo_sobre_umbral": 0.129
+  },
+  {
+   "sesion": "20260807_150646",
+   "mediana_calibracion": 2.9,
+   "mediana_reposo": 9.8,
+   "mediana_gesto": 13.8,
+   "razon_reposo_calibracion": 3.41,
+   "razon_gesto_reposo": 1.4,
+   "fraccion_reposo_sobre_umbral": 0.326
+  },
+  {
+   "sesion": "20260807_170550",
+   "mediana_calibracion": 40.3,
+   "mediana_reposo": 32.6,
+   "mediana_gesto": 43.8,
+   "razon_reposo_calibracion": 0.81,
+   "razon_gesto_reposo": 1.34,
+   "fraccion_reposo_sobre_umbral": 0.011
+  },
+  {
+   "sesion": "20260811_122212",
+   "mediana_calibracion": 88.7,
+   "mediana_reposo": 107.9,
+   "mediana_gesto": 172.7,
+   "razon_reposo_calibracion": 1.22,
+   "razon_gesto_reposo": 1.6,
+   "fraccion_reposo_sobre_umbral": 0.015
+  }
+ ]
+}

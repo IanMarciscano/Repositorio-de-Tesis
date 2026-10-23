@@ -1,0 +1,115 @@
+{
+ "nota": "Presupuesto de latencia del apartado 3.8.2. Los términos 1a y 4 no se instrumentaron durante la adquisición y se declaran como tales; no se estiman.",
+ "retardo_de_grupo_por_frecuencia_ms": {
+  "20 Hz": 30.176,
+  "50 Hz": 5.457,
+  "100 Hz": 1.217,
+  "150 Hz": 0.691,
+  "250 Hz": 0.594,
+  "450 Hz": 12.192
+ },
+ "frecuencia_de_mayor_energia_hz": 50.0,
+ "terminos": [
+  {
+   "n": "1a",
+   "nombre": "Adquisición analógica de la señal mioeléctrica",
+   "mediana": null,
+   "peor": null,
+   "origen": "no instrumentado; exige medir la respuesta del circuito del sensor",
+   "en_la_cadena": true
+  },
+  {
+   "n": "1b",
+   "nombre": "Filtrado digital causal, retardo de grupo",
+   "mediana": 11.136,
+   "peor": 11.136,
+   "origen": "calculado sobre la cascada del pipeline y ponderado por el espectro de los cinco registros",
+   "en_la_cadena": true
+  },
+  {
+   "n": "1c",
+   "nombre": "Adquisición del canal de fuerza",
+   "mediana": 100.0,
+   "peor": 100.0,
+   "origen": "ExoCS.ino línea 59, HX711 fijado a 10 muestras por segundo",
+   "en_la_cadena": false
+  },
+  {
+   "n": "2",
+   "nombre": "Acumulación de la ventana de análisis",
+   "mediana": 300.0,
+   "peor": 300.0,
+   "origen": "determinista, T_w del apartado 3.5.2",
+   "en_la_cadena": true
+  },
+  {
+   "n": "2b",
+   "nombre": "Cobertura temporal de la secuencia completa",
+   "mediana": 490.0,
+   "peor": 490.0,
+   "origen": "determinista, (L-1)·T_s + T_w; cota de arranque en frío, no latencia de operación continua",
+   "en_la_cadena": false
+  },
+  {
+   "n": "3",
+   "nombre": "Cómputo de un ciclo del supervisor",
+   "mediana": 1.7064,
+   "peor": 2.4106,
+   "origen": "medido, 2000 ciclos cronometrados",
+   "en_la_cadena": true
+  },
+  {
+   "n": "4",
+   "nombre": "Comunicación con el nivel embebido",
+   "mediana": null,
+   "peor": null,
+   "origen": "no instrumentado; exige marcas de tiempo en ambos extremos del enlace",
+   "en_la_cadena": true
+  },
+  {
+   "n": "5",
+   "nombre": "Periodo de actualización del supervisor",
+   "mediana": 12.5,
+   "peor": 25.0,
+   "origen": "determinista, retardo de muestreo uniforme en [0, T_H]",
+   "en_la_cadena": true
+  },
+  {
+   "n": "6",
+   "nombre": "Periodo del nivel embebido",
+   "mediana": 2.5,
+   "peor": 5.0,
+   "origen": "determinista, ExoCS.ino línea 99, 5 ms",
+   "en_la_cadena": true
+  }
+ ],
+ "cota_de_arranque_ms": {
+  "mediana": 327.842,
+  "peor_caso": 343.547,
+  "incluye": [
+   "1b",
+   "2",
+   "3",
+   "5",
+   "6"
+  ]
+ },
+ "sobrecoste_en_regimen_ms": {
+  "mediana": 27.842,
+  "peor_caso": 43.547,
+  "incluye": [
+   "1b",
+   "3",
+   "5",
+   "6"
+  ]
+ },
+ "terminos_sin_instrumentar": [
+  "1a",
+  "4"
+ ],
+ "criterio_farrell_weir_ms": [
+  100,
+  125
+ ]
+}

@@ -1,0 +1,99 @@
+{
+ "definicion": {
+  "theta_on": 0.6,
+  "tolerancia_s": 0.49,
+  "senal": "cabeza auxiliar de intención"
+ },
+ "por_sesion": [
+  {
+   "sesion": "20260806_182858",
+   "segundos_de_reposo": 129.7,
+   "fraccion_reposo_sobre_umbral": 0.758,
+   "cruda": {
+    "activaciones_en_reposo": 51,
+    "espurias": 51,
+    "espurias_por_minuto": 23.6
+   },
+   "tras_maquina_de_estados": {
+    "activaciones_en_reposo": 18,
+    "espurias": 18,
+    "espurias_por_minuto": 8.33
+   },
+   "episodios": 20,
+   "episodios_precedidos_cruda": 10,
+   "episodios_precedidos_mef": 11
+  },
+  {
+   "sesion": "20260807_150646",
+   "segundos_de_reposo": 215.9,
+   "fraccion_reposo_sobre_umbral": 0.529,
+   "cruda": {
+    "activaciones_en_reposo": 154,
+    "espurias": 153,
+    "espurias_por_minuto": 42.52
+   },
+   "tras_maquina_de_estados": {
+    "activaciones_en_reposo": 52,
+    "espurias": 52,
+    "espurias_por_minuto": 14.45
+   },
+   "episodios": 20,
+   "episodios_precedidos_cruda": 17,
+   "episodios_precedidos_mef": 19
+  },
+  {
+   "sesion": "20260807_170550",
+   "segundos_de_reposo": 201.2,
+   "fraccion_reposo_sobre_umbral": 0.302,
+   "cruda": {
+    "activaciones_en_reposo": 91,
+    "espurias": 90,
+    "espurias_por_minuto": 26.84
+   },
+   "tras_maquina_de_estados": {
+    "activaciones_en_reposo": 41,
+    "espurias": 41,
+    "espurias_por_minuto": 12.23
+   },
+   "episodios": 20,
+   "episodios_precedidos_cruda": 18,
+   "episodios_precedidos_mef": 16
+  },
+  {
+   "sesion": "20260811_122212",
+   "segundos_de_reposo": 199.7,
+   "fraccion_reposo_sobre_umbral": 0.458,
+   "cruda": {
+    "activaciones_en_reposo": 121,
+    "espurias": 121,
+    "espurias_por_minuto": 36.36
+   },
+   "tras_maquina_de_estados": {
+    "activaciones_en_reposo": 37,
+    "espurias": 37,
+    "espurias_por_minuto": 11.12
+   },
+   "episodios": 20,
+   "episodios_precedidos_cruda": 15,
+   "episodios_precedidos_mef": 15
+  }
+ ],
+ "global_": {
+  "segundos_de_reposo": 746.5,
+  "episodios": 80,
+  "cruda": {
+   "espurias": 415,
+   "por_minuto": 33.36,
+   "episodios_precedidos": 60,
+   "proporcion_episodios": 0.75
+  },
+  "tras_maquina_de_estados": {
+   "espurias": 148,
+   "por_minuto": 11.9,
+   "episodios_precedidos": 61,
+   "proporcion_episodios": 0.762
+  },
+  "reduccion_por_persistencia": 0.643,
+  "fraccion_reposo_sobre_umbral": 0.512
+ }
+}

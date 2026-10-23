@@ -1,0 +1,218 @@
+{
+  "tensorflow": "2.21.0",
+  "semilla": 42,
+  "resumen_por_configuracion": {
+    "A": {
+      "descripcion": "solo sEMG",
+      "canales": 14,
+      "parametros": 31046,
+      "pliegues": 3,
+      "exactitud_media": 0.221,
+      "exactitud_desv": 0.1549,
+      "f1_macro_media": 0.1081,
+      "f1_macro_desv": 0.0274
+    },
+    "B": {
+      "descripcion": "solo estado exo",
+      "canales": 7,
+      "parametros": 30374,
+      "pliegues": 3,
+      "exactitud_media": 0.3632,
+      "exactitud_desv": 0.0611,
+      "f1_macro_media": 0.3253,
+      "f1_macro_desv": 0.0844
+    },
+    "C": {
+      "descripcion": "fusion multimodal",
+      "canales": 21,
+      "parametros": 31718,
+      "pliegues": 3,
+      "exactitud_media": 0.2764,
+      "exactitud_desv": 0.1266,
+      "f1_macro_media": 0.2347,
+      "f1_macro_desv": 0.0976
+    }
+  },
+  "detalle": [
+    {
+      "configuracion": "C",
+      "descripcion": "fusion multimodal",
+      "canales": 21,
+      "parametros": 31718,
+      "carga_kg": 0.0,
+      "exactitud": 0.2032,
+      "f1_macro": 0.1882,
+      "f1_por_clase": {
+        "reposo": 0.182,
+        "flex_codo": 0.207,
+        "ext_codo": 0.406,
+        "flex_hombro": 0.08,
+        "ext_hombro": 0.236,
+        "levantamiento": 0.018
+      },
+      "epocas": 16,
+      "n_train": 58618,
+      "n_test": 61045
+    },
+    {
+      "configuracion": "C",
+      "descripcion": "fusion multimodal",
+      "canales": 21,
+      "parametros": 31718,
+      "carga_kg": 0.5,
+      "exactitud": 0.1715,
+      "f1_macro": 0.1454,
+      "f1_por_clase": {
+        "reposo": 0.077,
+        "flex_codo": 0.0,
+        "ext_codo": 0.015,
+        "flex_hombro": 0.242,
+        "ext_hombro": 0.245,
+        "levantamiento": 0.293
+      },
+      "epocas": 16,
+      "n_train": 79761,
+      "n_test": 36742
+    },
+    {
+      "configuracion": "C",
+      "descripcion": "fusion multimodal",
+      "canales": 21,
+      "parametros": 31718,
+      "carga_kg": 0.85,
+      "exactitud": 0.4546,
+      "f1_macro": 0.3704,
+      "f1_por_clase": {
+        "reposo": 0.561,
+        "flex_codo": 0.364,
+        "ext_codo": 0.473,
+        "flex_hombro": 0.418,
+        "ext_hombro": 0.246,
+        "levantamiento": 0.16
+      },
+      "epocas": 17,
+      "n_train": 80969,
+      "n_test": 34964
+    },
+    {
+      "configuracion": "A",
+      "descripcion": "solo sEMG",
+      "canales": 14,
+      "parametros": 31046,
+      "carga_kg": 0.0,
+      "exactitud": 0.1177,
+      "f1_macro": 0.0937,
+      "f1_por_clase": {
+        "reposo": 0.036,
+        "flex_codo": 0.07,
+        "ext_codo": 0.153,
+        "flex_hombro": 0.006,
+        "ext_hombro": 0.228,
+        "levantamiento": 0.069
+      },
+      "epocas": 16,
+      "n_train": 58618,
+      "n_test": 61045
+    },
+    {
+      "configuracion": "A",
+      "descripcion": "solo sEMG",
+      "canales": 14,
+      "parametros": 31046,
+      "carga_kg": 0.5,
+      "exactitud": 0.1054,
+      "f1_macro": 0.0842,
+      "f1_por_clase": {
+        "reposo": 0.03,
+        "flex_codo": 0.0,
+        "ext_codo": 0.185,
+        "flex_hombro": 0.125,
+        "ext_hombro": 0.148,
+        "levantamiento": 0.018
+      },
+      "epocas": 16,
+      "n_train": 79761,
+      "n_test": 36742
+    },
+    {
+      "configuracion": "A",
+      "descripcion": "solo sEMG",
+      "canales": 14,
+      "parametros": 31046,
+      "carga_kg": 0.85,
+      "exactitud": 0.4399,
+      "f1_macro": 0.1465,
+      "f1_por_clase": {
+        "reposo": 0.659,
+        "flex_codo": 0.014,
+        "ext_codo": 0.002,
+        "flex_hombro": 0.066,
+        "ext_hombro": 0.093,
+        "levantamiento": 0.046
+      },
+      "epocas": 17,
+      "n_train": 80969,
+      "n_test": 34964
+    },
+    {
+      "configuracion": "B",
+      "descripcion": "solo estado exo",
+      "canales": 7,
+      "parametros": 30374,
+      "carga_kg": 0.0,
+      "exactitud": 0.3154,
+      "f1_macro": 0.2661,
+      "f1_por_clase": {
+        "reposo": 0.384,
+        "flex_codo": 0.293,
+        "ext_codo": 0.317,
+        "flex_hombro": 0.214,
+        "ext_hombro": 0.187,
+        "levantamiento": 0.202
+      },
+      "epocas": 19,
+      "n_train": 58618,
+      "n_test": 61045
+    },
+    {
+      "configuracion": "B",
+      "descripcion": "solo estado exo",
+      "canales": 7,
+      "parametros": 30374,
+      "carga_kg": 0.5,
+      "exactitud": 0.3247,
+      "f1_macro": 0.2652,
+      "f1_por_clase": {
+        "reposo": 0.372,
+        "flex_codo": 0.0,
+        "ext_codo": 0.228,
+        "flex_hombro": 0.36,
+        "ext_hombro": 0.303,
+        "levantamiento": 0.328
+      },
+      "epocas": 16,
+      "n_train": 79761,
+      "n_test": 36742
+    },
+    {
+      "configuracion": "B",
+      "descripcion": "solo estado exo",
+      "canales": 7,
+      "parametros": 30374,
+      "carga_kg": 0.85,
+      "exactitud": 0.4494,
+      "f1_macro": 0.4447,
+      "f1_por_clase": {
+        "reposo": 0.494,
+        "flex_codo": 0.342,
+        "ext_codo": 0.615,
+        "flex_hombro": 0.457,
+        "ext_hombro": 0.294,
+        "levantamiento": 0.468
+      },
+      "epocas": 17,
+      "n_train": 80969,
+      "n_test": 34964
+    }
+  ]
+}
