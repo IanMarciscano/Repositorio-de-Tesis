@@ -1,0 +1,95 @@
+{
+ "A": {
+  "episodio": {
+   "puntual": -370,
+   "ic": [
+    -580.0,
+    -240.0,
+    0.0
+   ],
+   "frac_antes": 0.9615,
+   "n_validos": 2000
+  },
+  "sesion": {
+   "puntual": -250,
+   "ic": [
+    -460.0,
+    -220.0,
+    240.0
+   ],
+   "frac_antes": 0.7395,
+   "n_validos": 2000
+  },
+  "diferencia": {
+   "ic": [
+    -270.0,
+    40.0,
+    520.2499999999986
+   ],
+   "frac_positiva": 0.617,
+   "n_validos": 2000
+  }
+ },
+ "B": {
+  "episodio": {
+   "puntual": -110,
+   "ic": [
+    -370.0,
+    -50.0,
+    270.0
+   ],
+   "frac_antes": 0.7675,
+   "n_validos": 2000
+  },
+  "sesion": {
+   "puntual": 30,
+   "ic": [
+    -270.0,
+    30.0,
+    390.0
+   ],
+   "frac_antes": 0.3065,
+   "n_validos": 2000
+  },
+  "diferencia": {
+   "ic": [
+    -290.0,
+    110.0,
+    450.0
+   ],
+   "frac_positiva": 0.771,
+   "n_validos": 2000
+  }
+ },
+ "C": {
+  "episodio": {
+   "puntual": -110,
+   "ic": [
+    -370.0,
+    -50.0,
+    270.0
+   ],
+   "frac_antes": 0.7785,
+   "n_validos": 2000
+  },
+  "sesion": {
+   "puntual": 10,
+   "ic": [
+    -340.0,
+    30.0,
+    360.0
+   ],
+   "frac_antes": 0.346,
+   "n_validos": 2000
+  },
+  "diferencia": {
+   "ic": [
+    -270.0,
+    90.0,
+    440.0
+   ],
+   "frac_positiva": 0.7315,
+   "n_validos": 2000
+  }
+ }
+}

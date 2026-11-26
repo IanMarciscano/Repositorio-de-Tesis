@@ -1,0 +1,20 @@
+{
+ "punto_menos3dB_ciclos_muestra": 0.009746517302869207,
+ "fs_si_10Hz_es_menos3dB": 1026.0075152235324,
+ "ganancia_a_500Hz_si_fs1024": 1.0009410788106452,
+ "archivos": 60,
+ "picos_por_archivo_mediana": 10.0,
+ "periodo_muestras_mediana": 2300.0,
+ "periodo_muestras_p25_p75": [
+  2107.0,
+  2697.5
+ ],
+ "segundos_por_ciclo": {
+  "1024": 2.24609375,
+  "780.2": 2.9479620610099975
+ },
+ "duracion_archivo_mediana_s": {
+  "1024": 23.400390625,
+  "780.2": 30.712637785183283
+ }
+}
